@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-SoftwareSerial BTSerial(3, 4); //-->불투 시리얼 넘버ㅓ
+SoftwareSerial BTSerial(3, 4); //-->불투 시리얼 넘버
 
 const int in1Pin = 7; 
 const int in2Pin = 8; 
@@ -10,7 +10,7 @@ void setup() {
   pinMode(in2Pin, OUTPUT);
   
   BTSerial.begin(9600);
-  Serial.begin(9600); // 이거 체크 한번 해봐야함 ㅇㅇ 불투 모듈 시리얼 채널(?) 그것만 체크하면 됨 ㅇㅇ 우선 기본 값 ==> 9600
+  Serial.begin(9600); // 이거 체크 한번 해봐야함 ㅇㅇ 불투 모듈 시리얼 채널 송신 값 ==> 9600
 }
 
 void loop() {
