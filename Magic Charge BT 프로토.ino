@@ -10,7 +10,7 @@ void setup() {
   pinMode(in2Pin, OUTPUT);
   
   BTSerial.begin(9600);
-  Serial.begin(9600); // 이거 체크 한번 해봐야함 ㅇㅇ 불투 모듈 시리얼 채널 송신 값 ==> 9600
+  Serial.begin(9600); // 불투 모듈 시리얼 채널 송신 값 ==> 9600
 }
 
 void loop() {
